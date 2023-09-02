@@ -24,6 +24,7 @@ function sendMessage(message) {
     appendMessage(msg, 'outgoing_message');
     textarea.value = '';
 
+    //for scrolling the message area automatically while having long messages
     scrolltoBottom()
 
     // Send to server
