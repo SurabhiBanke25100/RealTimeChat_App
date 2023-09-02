@@ -40,6 +40,7 @@ function appendMessage(msg, type) {
         <h4>${msg.user}</h4>
         <p>${msg.message}</p>
     `;
+
     mainDiv.innerHTML = markup;
     messagearea.appendChild(mainDiv);
 }
